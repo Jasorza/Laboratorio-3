@@ -1,0 +1,67 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+header, .main, footer {
+	width: 90%;
+	margin: 20px auto;
+	max-width: 1500px;
+}
+
+.menu{
+	background-color: #A0A2A6;
+	overflow: hidden;
+}  
+
+.menu ul {
+	list-style: none;
+}
+
+.menu ul li {
+	float: left;
+}
+
+.menu ul li a {
+	padding: 10px 20px;
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+
+.title{
+	color: #FC0000;
+	font-size: 50px; 
+}
+
+footer {
+	background: #000000;
+	color: white;
+	text-align: left;
+	clear: both;
+	padding: 30px 5px;
+}
+
+.main .articulos article {
+	margin-bottom: 20px;
+
+}
+
+h1{
+	font-size: 40px;
+	color: #00A8FF;
+}
+.negro{
+	color: black;
+}
+
+.video{
+	align-items: center;
+}
+
+h3{
+	text-align: center;
+	font-size: 15px;
+	color: #978B8B;
+}
