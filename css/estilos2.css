@@ -1,0 +1,99 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+header, .main, footer {
+	width: 90%;
+	margin: 35px auto;
+	max-width: 1500px;
+}
+.main {
+	width: 80%;
+	margin: 20px auto;
+	max-width: 1500px;
+}
+
+.menu{
+	background-color: #A0A2A6;
+	overflow: hidden;
+}  
+
+.menu ul {
+	list-style: none;
+}
+
+.menu ul li {
+	float: left;
+}
+
+.menu ul li a {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	padding: 10px 60px;
+	display: block;
+	color: black;
+	text-decoration: none;
+}
+
+.title{
+	color: #A80808;
+	font-size: 50px;
+}
+
+footer {
+	font-family: 'Source Sans Pro', sans-serif;
+	background: #000000;
+	color: white;
+	text-align: left;
+	clear: both;
+	padding: 50px 5px;
+}
+
+h1{
+	font-size: 40px;
+	color: #A80808;
+}
+
+p{
+	font-size: 20px;
+}
+
+.box1, .box2, .box3, .box4, .box5{
+	background-clip: content-box;
+	width: 160px;
+	background-repeat: no-repeat;
+	float: left;
+	padding: 2px;
+	border: 1px solid grey;
+	background-size:  contain;
+	margin-top: 20px;
+	margin: 20px 10px 0 10px;
+	border-radius: 5px;
+	box-shadow: 5px blue;
+}
+
+.box1{
+	background-image: url(../img/glosario-ra.png);
+	height: 210px;
+}
+
+.box2{
+	background-image: url(../img/glosario-gamificacion.png);
+	height: 110px;
+}
+
+.box3{
+	background-image: url(../img/glosario-impresion-3d.png);
+	height: 170px;
+}
+.box4{
+	background-image: url(../img/glosario-wearables.png);
+	height: 175px;
+}
+
+.box5{
+	background-image: url(../img/glosario-big-data.png);
+	height: 120px;
+}
