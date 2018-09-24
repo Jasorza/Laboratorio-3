@@ -9,32 +9,50 @@ header, .main, footer {
 	margin: 35px auto;
 	max-width: 1500px;
 }
+
+#logo{
+	background-image: url(../img/logo-uoc.png);
+	background-repeat: no-repeat;
+	padding: 20px;
+	height: 80px;
+	width: 400px;
+	background-size: 80% 60%;
+	background-origin: content-box;
+}
+
+nav ul{
+	list-style-type: none;
+	margin:0px;
+	padding:10px;
+	background-color: #eaeaea;
+}
+
+nav li{
+	display: inline-block;
+	padding: 6px;
+	background-color: #eaeaea;
+}
+
+nav a{
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:;
+}
+
+nav li:hover{
+	color: #eaeaea;
+	background-color: #eaeaea;
+	border-bottom-width: 5px;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+}
+
 .main {
 	width: 80%;
 	margin: 20px auto;
 	max-width: 1500px;
-}
-
-.menu{
-	background-color: #A0A2A6;
-	overflow: hidden;
-}  
-
-.menu ul {
-	list-style: none;
-}
-
-.menu ul li {
-	float: left;
-}
-
-.menu ul li a {
-	font-family: 'Source Sans Pro', sans-serif;
-	text-align: center;
-	padding: 10px 60px;
-	display: block;
-	color: black;
-	text-decoration: none;
 }
 
 .title{
@@ -42,18 +60,13 @@ header, .main, footer {
 	font-size: 50px;
 }
 
-footer {
-	font-family: 'Source Sans Pro', sans-serif;
-	background: #000000;
-	color: white;
-	text-align: left;
-	clear: both;
-	padding: 50px 5px;
+h1{
+	font-size: 30px;
+	color: #A80808;
 }
 
-h1{
-	font-size: 40px;
-	color: #A80808;
+section{
+	margin-bottom: 10px;
 }
 
 p{
@@ -96,4 +109,17 @@ p{
 .box5{
 	background-image: url(../img/glosario-big-data.png);
 	height: 120px;
+}
+
+footer {
+	font-family: 'Source Sans Pro', sans-serif;
+	background: #000000;
+	color: white;
+	text-align: left;
+	clear: both;
+	padding: 50px;
+}
+footer img{
+	display: block;
+	margin-top: 15px;
 }

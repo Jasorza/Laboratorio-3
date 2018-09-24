@@ -1,0 +1,116 @@
+*{
+	padding: 0px auto;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+header, .main, footer {
+	width: 90%;
+	margin: 35px auto;
+	max-width: 1500px;
+}
+
+#logo{
+	background-image: url(../img/logo-uoc.png);
+	background-repeat: no-repeat;
+	padding: 20px;
+	height: 80px;
+	width: 400px;
+	background-size: 80% 60%;
+	background-origin: content-box;
+}
+
+nav ul{
+	list-style-type: none;
+	margin:0px;
+	padding:10px;
+	background-color: #eaeaea;
+}
+
+nav li{
+	display: inline-block;
+	padding: 6px;
+	background-color: #eaeaea;
+}
+
+nav a{
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:;
+}
+
+nav li:hover{
+	color: #eaeaea;
+	background-color: #eaeaea;
+	border-bottom-width: 5px;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+}
+
+.main {
+	width: 80%;
+	margin: 20px auto;
+	max-width: 1500px;
+}
+
+.t1{
+	color: #1A64D4;
+	font-weight: lighter;
+}
+.t2{
+	color: #1A64D4;
+}
+
+.title{
+	color: #A80808;
+	font-size: 50px; 
+}
+
+
+
+.main .articulos article {
+	margin-bottom: 30px;
+
+}
+
+h1{
+	font-size: 40px;
+	color: #000000;
+}
+.negro{
+	color: black;
+}
+
+
+h3{
+	text-align: center;
+	font-size: 15px;
+	font-weight: lighter;
+	color: #A59C9C;
+}
+
+div iframe{
+	display: block;
+	margin: 0 auto;
+}
+
+.articulos div img{
+	display: block;
+	margin: 0 auto;
+}
+
+footer {
+	font-family: 'Source Sans Pro', sans-serif;
+	background: #000000;
+	color: white;
+	text-align: left;
+	clear: both;
+	padding: 50px;
+}
+
+footer img{
+	display: block;
+	margin-top: 15px;
+}
